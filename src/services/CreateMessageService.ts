@@ -19,7 +19,7 @@ class CreateMessageService {
       created_at: message.created_at
     }
     
-    socketIo.emit("")
+    socketIo.emit("new_message", infoWS)
 
 
     return message;
