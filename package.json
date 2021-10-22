@@ -7,7 +7,7 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "dev": "ts-node-dev --exit-child --transpile-only --inspect --ignore-watch node_modules src/app.ts"
+    "dev": "ts-node-dev --exit-child --transpile-only --inspect --ignore-watch node_modules src/server.ts"
   },
   "dependencies": {
     "@prisma/client": "3.3.0",
